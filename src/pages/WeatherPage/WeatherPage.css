@@ -1,0 +1,39 @@
+button{
+    padding: 10px;
+    margin: 5px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+
+}
+
+button{
+    border-radius: 5px;
+    border: 2px solid gray; 
+}
+
+button:hover{
+    background-color: rgb(162, 175, 239);
+    border: 2px solid gray;
+}
+
+div.weather-info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(132, 132, 132);
+    width: 100%;
+    border-radius: 5px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p.info{
+    color: black;
+}
